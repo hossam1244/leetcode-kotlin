@@ -14,7 +14,6 @@ fun containsDuplicate(nums: IntArray): Boolean {
         } 
 
         hashmap.put(num,num)
-        hashmap.
     }
 
     return false

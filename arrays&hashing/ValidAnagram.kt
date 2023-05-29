@@ -11,16 +11,8 @@ fun isAnagram(s: String, t: String): Boolean {
           return false
 
          var firstString = s.toCharArray().sorted()
-        var secondString =  t.toCharArray().sorted()
+         var secondString =  t.toCharArray().sorted()
 
-         for (key in firstString)
- {
-    print(key)
- }
-println()
- for (key in secondString) {
-    print(key)
- }
          for ((index,value) in firstString.withIndex()) {
             
                if (value != secondString.get(index))
